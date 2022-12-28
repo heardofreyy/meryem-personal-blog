@@ -1,0 +1,242 @@
+body{
+    min-height: 100%; 
+    max-height: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    background: linear-gradient(90deg, #ffb7c8, #ff9ab1, #f87392);
+    background-size: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/* ---------------- profile ---------------  */
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 500px;
+    min-width: 500px;
+    border-radius: 50%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-top: -10;
+    background-color: #fde7eb;
+    justify-content: space-around;
+    text-align: center;
+    align-content: center;
+    
+}
+
+header img {
+    width: 400px;
+    margin-top: -50px;
+}
+
+#profile-pic {
+    width: 170px;
+    margin-top: -50px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    border: 5px solid #ffb7c8;
+}
+
+
+.profile-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: auto;
+    width: 400px;
+    
+}
+
+.profile-khawi {
+    height: 100px;
+    width: 300px;
+}
+
+.name-title {
+    font-family: "Gabriola";
+    font-size: 50px;
+    color: #c22c4f;
+    height: 200px;
+    width: 300px;
+}
+
+/* ---------------- body ---------------  */
+
+.body-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+.infos-div {
+    background-color: #fde7eb;
+    height: auto;
+    width: 25%;
+    min-width: 320px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* ---------------- in common ---------------  */
+
+.bio, .personality, .i-love, .insta {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    min-width: 300px;
+}
+
+.bio-title, .personality-title, .i-love-title, .insta-title {
+    background-color: #c22c4f;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+}
+
+.bio-body, .personality-body, .i-love-body, .insta-body {
+    background-color: white;
+    border-radius: 20px;
+    margin-top: -20px;
+}
+
+/* ---------------- bio ---------------  */
+
+.bio {
+    min-height: 200px;
+}
+
+.bio .bio-khawi {
+    min-height: 50px;
+}
+
+.bio .bio-title {
+    min-height: 80px;
+}
+
+.bio-title #bio-title-text, .personality-title #personality-title-text, .i-love-title #i-love-title-text, .insta-title #insta-title-text {
+    margin-top: 5px;
+    color: #fde7eb;
+    font-family: "Century Gothic";
+}
+
+.bio .bio-body {
+    min-height: 200px;
+    font-family: cursive;
+}
+
+/* ---------------- personality ---------------  */
+
+.personality {
+    min-height: 400px;
+}
+
+.personality-title {
+    min-height: 80px;
+}
+
+.personality-body {
+    min-height: 300px;
+    padding: 10px;
+    font-family: cursive;
+    padding-top: 20px;
+}
+
+/* ---------------- things i love ---------------  */
+
+.i-love {
+    min-height: 300px;
+}
+
+.i-love-title {
+    height: 80px;
+}
+
+.i-love-body {
+    height: 200px;
+    font-family: cursive;
+}
+
+/* ---------------- insta ---------------  */
+
+.insta {
+    height: 200px;
+    margin-top: 0;
+}
+
+.insta-title {
+    height: 90px;
+    font-size: small;
+}
+
+.insta-body {
+    height: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.insta-button a {
+    text-decoration: none;
+    font-family: cursive;
+    width: auto;
+    height: auto;
+    padding: 10px 20px;
+    background-color: #eb8aa0;
+    color: #c22c4f;
+    border-radius: 50px;
+}
+#insta-link a:hover {
+    background-color: #c22c4f;
+    color: #fde7eb;
+}
+
+
+/* ---------------- right gallery ---------------  */
+
+.left-gal {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 65%;
+    min-width: 10%; 
+}
+
+.gallery-div {
+    background-color: #fde7eb;
+    border-radius: 50px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 50px 0;
+}
+
+.text-gal{
+    text-align: center;
+    font-family: "Gabriola";
+    font-size: 25px;
+    color: #c22c4f;
+}
+
+.gallery-div img {
+    width: 100%;
+    max-width: 250px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }

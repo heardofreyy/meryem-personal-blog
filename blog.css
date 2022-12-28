@@ -1,0 +1,105 @@
+body{
+    min-height: 100%; 
+    max-height: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    background: linear-gradient(90deg, #ffb7c8, #ff9ab1, #f87392);
+    background-color: #ffb7c8;
+    background-size: 100%;
+    margin: 0;
+}
+
+/* ---------------- the header ---------------  */
+
+header {
+    height: 25%;
+    width: 100%;
+    padding-top: 50px;
+    border-radius: 50%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-color: #fde7eb;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+/* ---------------- left title ---------------  */
+
+.header-title {
+    font-family: "Gabriola";
+    font-size: 30px;
+    margin-top: -75px;
+    color: #c22c4f;
+    min-width: 300px;
+    width: 300px;
+}
+
+/* ---------------- middle description ---------------  */
+
+.header-body {
+    max-width: 50%;
+    min-width: 400px;
+    height: 200px;
+    font-family: "Century Gothic";
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.text-2 {
+    color: #ff5981;
+}
+
+.header .header-khawi {
+    width: 300px;
+    height: 25px;
+}
+
+/* ---------------- the body ---------------  */
+
+.body-div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex-wrap: wrap;
+    gap: 120px
+
+}
+
+/* ---------------- the button ---------------  */
+
+.body-button {
+    height: 75%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+    background-color: #ff5981;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+    max-width: 300px;
+    min-width: 300px;
+    height: 80px;
+    margin: 0 auto;
+    border: none;
+}
+
+button a {
+    font-size: 25px;
+    font-family: "Century Gothic";
+    text-decoration: none;
+    color: #fff6f8;
+}
+
+button:hover {
+    background-color: #ff90aa;
+    color: #ff1148;
+}
